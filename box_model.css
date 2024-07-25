@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* provides rough idea of website and element placement outline: 2px solid red; */
+}
+
+.links-list {
+    margin-left: 75vw;
+    margin-bottom: 5vh;
+
+}
+
+.links-list li {
+    display: inline;
+}
+
+.links-list a {
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 1em 2em;
+    border: 2px solid black;
+    margin-right: -5px;
+    display: inline-block;
+}
+.links-list a:hover {
+    background-color: burlywood;
+}
+
+.box1 {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid lightpink;
+    /* auto left and right to center vertically */
+    margin: 20px auto 20px auto;
+    display:block;
+}
+
+.box2 {
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid burlywood;
+    margin: 20px 0 20px 40px;
+    display:block;
+}
